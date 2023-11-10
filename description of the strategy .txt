@@ -1,0 +1,24 @@
+# Tendable Tech Challenge
+
+## Challenge Description
+This project contains an automated test script to evaluate specific elements on the Tendable website.
+
+## Strategy
+The strategy for this challenge involves using Selenium WebDriver with Java to interact with the Tendable website. The tasks are divided into three main functions:
+- `checkTopLevelMenus`: Confirm accessibility of the top-level menus.
+- `checkRequestDemoButton`: Verify the presence and activity of the "Request a Demo" button.
+- `submitContactUsForm`: Navigate to the "Contact Us" section, choose "Marketing," and submit the form, checking for error messages.
+
+## How to Run the Test Project
+Follow the steps below to run the automated test:
+1. Clone this repository to your local machine.
+2. Open the project in your preferred Java IDE (Eclipse, IntelliJ, etc.).
+3. Set the path to your ChromeDriver executable in the `TendableTest.java` file (`System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");`).
+4. Run the `TendableTestIT.java` file as a JUnit test.
+
+Note: Make sure you have the necessary dependencies, such as Selenium WebDriver, configured in your project.
+
+## Bug Report
+If the test for point 3 fails (no error message is displayed), a bug report can be generated. Please refer to the generated bug report document for details.
+
+s

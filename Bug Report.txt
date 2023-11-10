@@ -1,0 +1,25 @@
+# Bug Report
+
+## Issue Description
+The automated test for submitting the "Contact Us" form did not display the expected error message when the "Message" field was left empty.
+
+## Steps to Reproduce
+1. Navigate to the Tendable website.
+2. Go to the "Contact Us" section.
+3. Choose "Marketing."
+4. Submit the form without filling in the "Message" field.
+
+## Expected Result
+An error message should be displayed, indicating that the "Message" field is required.
+
+## Actual Result
+No error message is displayed when the "Message" field is empty.
+
+## Environment
+- Operating System: Window
+- Browser: ChromeBrowser
+- Selenium Version: 4.15
+- ChromeDriver Version: 4.15
+
+## Screenshots 
+
